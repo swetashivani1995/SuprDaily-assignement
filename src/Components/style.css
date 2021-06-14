@@ -1,0 +1,110 @@
+.App-list-content{
+    display: flex;
+    flex-direction: row;
+    min-height: 65vh;
+}
+.App-list-header{
+  display: flex;
+  min-height: 9%;
+  align-items: center;
+  border: 2px solid black;
+}
+.App-list-title{
+  display: flex;
+  justify-content: center;
+  width: 93%;
+}
+.App-list-delete{
+  display: flex;
+    justify-content: flex-end;
+}
+.App-lists{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .App-list{
+    border: 5px solid black;
+    min-height: 77vh;
+    width: 20%;
+    margin: 43px;
+  }
+  .App-card-lists{
+    display: flex;
+    flex-direction: column;
+    height: 62vh;
+}
+.App-card-list{
+    display: flex;
+    flex-direction: column;
+    min-height: 20%;
+    margin: 4%;
+    border: 2px solid;
+    overflow: scroll;
+}
+.App-card-header{
+    display: flex;
+    flex-direction: row;
+}
+.App-card-title{
+    display: flex;
+    justify-content: center;
+    width: 93%;
+}
+.App-card-delete{
+    display: flex;
+    flex-direction: column;
+}
+.App-card-content{
+    margin-top: 3%;
+}
+.modal{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content{
+    width: 500px;
+    background-color: #fff;
+}
+.modal-header, .modal-footer{
+    padding: 10px;
+}
+
+.modal-title{
+    margin: 0;
+}
+
+.modal-body{
+    padding: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.show {
+    display: visible;
+}
+.hidden {
+    display: none;
+}
+.card-modal{
+ display: flex;
+}
+.card-label{
+    display: flex;
+    flex-grow: 0.5;
+}
+.card-desc{
+    margin-top:11px;
+}
+.App-list-footer{
+        position: absolute;
+        margin: 0 auto;
+        width: 20%
+}
